@@ -1,7 +1,9 @@
 let homeScore = document.getElementById("home-score")
 let guestScore = document.getElementById("guest-score")
+let period = document.getElementById("period")
 let homeCount = 0
 let guestCount = 0
+let periodCount = 0
 
 function homeIncrementByOne() {
     homeCount += 1
@@ -31,6 +33,14 @@ function guestIncrementByTwo() {
 function guestIncrementByThree() {
     guestCount += 3
     guestScore.textContent = guestCount
+}
+
+function periodIncrement() {
+    periodCount += 1
+    if (periodCount > 4) {
+        periodCount = 0
+    }
+    period.textContent = periodCount
 }
 
 function reset() {
