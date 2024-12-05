@@ -38,27 +38,25 @@ h4 {
     margin: 20px;
 }
 
-p {
-    margin: 0;
+.display {
     padding-top: 17px;
-    background: #080001;
-    font-size: 90px;
     font-weight: 400;
+    background: #080001;
     color: #F94F6D;
     border-radius: 5px;
+}
+
+p {
+    margin: 0;
+    font-size: 90px;
 }
 
 #period {
     width: 80px;
     margin: 10px auto;
-    padding-top: 17px;
     border: none;
     text-align: center;
     font-size: 50px;
-    font-weight: 400;
-    background: #080001;
-    color: #F94F6D;
-    border-radius: 5px;
     cursor: pointer;
 }
 
